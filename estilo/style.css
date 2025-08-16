@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+/**vermelho: #E50914
+**/
+
+@font-face {
+    font-family:Netflix;
+    src :url(../fonts/NetflixSans-Light.otf) format(opentype);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    height: 100vh;
+    width: 100vw;
+    font-family:'Netflix';
+    background-image: url(../imagens/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+        box-shadow: inset 20px 20px 40px black;
+}
+header{
+   height: 175px;
+   width: 100vw;
+   
+  
+}
+
+h1{
+    display: inline;
+    color:#E50914;
+    text-shadow: 1px 1px 5px black;
+    margin: 20px;
+    
+}
+
+.idioma{
+    background-color: rgba(0, 0, 0, 0.462);
+    color: white;
+     padding: 7px 13px;
+    border-radius: 5px;
+
+}
+
+#entrar{
+    background-color: #E50914;
+    border: #E50914;
+    color: white;
+    padding: 7px 13px;
+    border-radius: 5px;
+}
+
+.container1{
+    text-align: center;
+    color: white;
+
+}
+
+.container1 > h2{
+    font-size: 2em;
+    padding: 10px;
+}
+
+.container1 > p{
+    padding: 10px;
+    font-size: 1.0em;
+}
+
+input[type=email]{
+     background-color: rgba(0, 0, 0, 0.462);
+     border:solid 1px rgb(112, 112, 112);
+     border-radius: 5px;
+     font-size: 1.2em;
+     padding:18px;
+}
+
+.vamosla{
+     font-size: 1.2em;
+     background-color: #E50914;
+    border: #E50914;
+    color: white;
+    border-radius: 5px;
+    padding: 18px 30px 18px 20px;
+    margin: 5px 0px 50px 5px;
+    
+}
+
+#container2p{
+   background-image: linear-gradient(to bottom, #121B40,black);
+   border-top:solid 3px #e50914e6;
+}
+
+.container2{
+    text-align:left;
+    padding: 15px;
+    margin: auto;
+    width:60vw;
+    color: white;
+    background-image: linear-gradient(to top,#171D52, #462565);
+    border-radius: 7px;
+    
+}
+
+.container2 > p{
+    font-size: 1.2em;
+}
+
+#scorro{
+    margin: 3px 0px 20px 0px;
+    font-size: 0.8em;
+}
+
+.container2 > a{
+    padding: 10px;
+    background-color:rgba(255, 255, 255, 0.197) ;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.container3{
+    color: white;
+    padding: 20px;
+    background-color: black;
+}
+
+#capasp{
+    display: flex;
+    flex-wrap: nowrap;
+    flex: auto;
+    padding: 10px;
+}
+
+.container4{
+    color: white;
+    padding: 20px;
+}
+
+#baloesp{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+}
+
+.baloes{
+    background-image: linear-gradient(to top,#171d52bb, #462565ae);
+    height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+   width: 83vw;
+   margin-top: 10px;
+}
+
+.baloes > h4{
+    font-size: 1.2em;
+}
+
+.baloes > p{
+    color:#BBBBC3;
+}
+
+footer{
+    color: white;
+    padding: 20px;
+}
+
+footer > h3{
+    padding: 10px;
+}
+
+#perguntasp{
+    display: flex;
+    flex-direction: column;
+}
+
+.perguntas{
+    background-color: #414141;
+    font-size: 1.1em;
+    margin: 5px;
+    padding: 20px;
+       width: 80vw;
+}
+
+.container5{
+    text-align: center;
+
+}
+
+nav{
+    color:#B3B3B3;
+}
+
+nav > a:hover{
+    color: #B3B3B3;
+}
+
+footer > nav > ul{
+   list-style-type:none;
+   columns: 2;
+}
+
+footer > nav > ul > li{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+footer > select{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+footer > p{
+    font-size: 0.8em;
+    padding-bottom: 90px;
+}
