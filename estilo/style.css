@@ -27,11 +27,14 @@ header{
    height: 175px;
    width: 100vw;
    
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
   
 }
 
-h1{
-    display: inline;
+h1{  
     color:#E50914;
     text-shadow: 1px 1px 5px black;
     margin: 20px;
